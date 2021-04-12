@@ -4,4 +4,16 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\img\SK-A-2344.jpg" />
+    <None Include="wwwroot\img\SK-A-2860.jpg" />
+    <None Include="wwwroot\img\SK-A-3262.jpg" />
+    <None Include="wwwroot\img\SK-A-4050.jpg" />
+    <None Include="wwwroot\img\SK-A-4674.jpg" />
+    <None Include="wwwroot\img\SK-A-4691.jpg" />
+    <None Include="wwwroot\img\SK-A-4885.jpg" />
+    <None Include="wwwroot\img\SK-A-5033.jpg" />
+    <None Include="wwwroot\img\VanGogh.jpg" />
+  </ItemGroup>
+
 </Project>
