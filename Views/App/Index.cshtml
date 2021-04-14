@@ -1,23 +1,18 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>Dutch Treat</title>
-    <!--This ?ver... at the end of the css files makes sure the css is not cached and updates aren't just ignored-->
-    <link href="css/site.css?ver=<?php echo rand(111,999)?>" rel="stylesheet" />
-</head>
-<body>
-    <h2>Dutch Treat</h2>
-    <div class="product-info">
-        <img src="img/VanGogh.jpg" />
-        <h3>Mug</h3>
-        <ul class="product-props">
-            <li>Price: $9.99</li>
-            <li>Artist: Van Gogh</li>
-            <li>Title: </li>
-            <li>Description: Self-portrait</li>
-        </ul>
-        <button id="buyButton">Buy</button>
-    </div>
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="product-info">
+    <img src="~/img/VanGogh.jpg" />
+    <h3>Mug</h3>
+    <ul class="product-props">
+        <li>Price: $9.99</li>
+        <li>Artist: Van Gogh</li>
+        <li>Title: </li>
+        <li>Description: Self-portrait</li>
+    </ul>
+    <button id="buyButton">Buy</button>
+</div>
 
 <div id="theForm">
     <form>
@@ -61,9 +56,3 @@
         </div>
     </form>
 </div>
-
-
-<script src="lib/jquery/dist/jquery.min.js"></script>
-    <script src="js/index.js"></script>
-</body>
-</html>
