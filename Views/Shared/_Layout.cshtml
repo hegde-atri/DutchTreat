@@ -4,12 +4,13 @@
     <title>Dutch Treat: @ViewBag.Title</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!--This ?ver... at the end of the css files makes sure the css is not cached and updates aren't just ignored-->
+    <link href="~/lib/fortawesome/fontawesome-free/css/all.css" rel="stylesheet" />
     <link href="~/css/site.css?version=11" rel="stylesheet" />
 </head>
 <body>
     <header class="container">
         <nav class="navbar navbar-dark bg-dark navbar-expand-md">
-            <h1 class="navbar-brand">Welcome to Dutch Treat</h1>
+            <h1 class="navbar-brand"><i class="fas fa-paint-brush"></i> Welcome to Dutch Treat</h1>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#theMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,7 +24,7 @@
         </nav>
     </header>
     <section class="container">
-        <h2>@ViewBag.Title</h2>
+        <h2 class="text-center">@ViewBag.Title</h2>
         @RenderBody()
     </section>
 <footer class="container">
