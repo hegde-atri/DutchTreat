@@ -1,4 +1,3 @@
-﻿# Dutch Treat
-This project is made while learning ASP.NET and much more from this course.
-(https://app.pluralsight.com/library/courses/aspnetcore-mvc-efcore-bootstrap-angular-web/table-of-contents)
+# Dutch Treat
 
+This project is made while learning ASP.NET core. Although the project itself is not complete, I've learnt a great deal from this project, and have moved on to learn Angular, EF core and writing API's.
